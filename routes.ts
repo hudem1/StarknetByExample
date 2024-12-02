@@ -159,10 +159,6 @@ const config: Sidebar = [
         link: "/applications/merkle_tree",
       },
       {
-        text: "Zk-Snarks",
-        link: "/applications/zksnark_groth16",
-      },
-      {
         text: "Simple Storage with Starknet-js",
         link: "/applications/simple_storage_starknetjs",
       },
@@ -242,7 +238,11 @@ const config: Sidebar = [
       {
         text: "Sierra IR",
         link: "/advanced-concepts/sierra_ir",
-      }
+      },
+      {
+        text: "Zk-Snarks",
+        link: "/advanced-concepts/verify_proofs/snarkjs",
+      },
     ],
   },
   {
